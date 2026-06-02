@@ -34,6 +34,14 @@ The purpose of this project is to build and document a rock-solid understanding 
 
 ---
 
+## 🎓 Acknowledgments
+* **Platform:** Coursera
+* **Course Curriculum:** Python for Data Analysis: Pandas & NumPy
+* **Course Instructor:** Ryan Ahmed
+* **Skills Developed:** High-performance vector math, Boolean array masking, data structural alignment, web-based table extraction, and data validation pipelines.
+  
+---
+
 ## 📈 Key Code Examples & Challenges Solved
 
 #### Relational Data Pipeline Simulation
@@ -46,13 +54,3 @@ bank_df_all = pd.merge(bank_df_all, bank_df_salary, on='Bank Client ID')
 
 # Appending a fresh single-row observation matrix to the main ledger
 new_df = pd.concat([bank_df_all, new_client_df], axis=0)
-
----
-
-
-
-## 🎓 Acknowledgments
-* **Platform:** Coursera
-* **Course Curriculum:** Python for Data Analysis: Pandas & NumPy
-* **Course Instructor:** Ryan Ahmed
-* **Skills Developed:** High-performance vector math, Boolean array masking, data structural alignment, web-based table extraction, and data validation pipelines.
